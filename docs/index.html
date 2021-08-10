@@ -1,186 +1,304 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="es"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://blog.somoscasino.com/xmlrpc.php">
+	<title>Blog - Somos Casino</title>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v16.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Somos Casino">
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<link rel="canonical" href="https://blog.somoscasino.com/">
+	<link rel="next" href="https://blog.somoscasino.com/page/2/">
+	<meta property="og:locale" content="es_ES">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Blog - Somos Casino">
+	<meta property="og:description" content="Somos Casino">
+	<meta property="og:url" content="https://blog.somoscasino.com/">
+	<meta property="og:site_name" content="Blog - Somos Casino">
+	<meta name="twitter:card" content="summary_large_image">
+	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/es_LA/sdk.js?hash=adceb51d0620c1801526914ebb5c9095" async="" crossorigin="anonymous"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NW6ZHVL"></script><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://blog.somoscasino.com/#website","url":"https://blog.somoscasino.com/","name":"Blog - Somos Casino","description":"Somos Casino","potentialAction":[{"@type":"SearchAction","target":"https://blog.somoscasino.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"es"},{"@type":"CollectionPage","@id":"https://blog.somoscasino.com/#webpage","url":"https://blog.somoscasino.com/","name":"Blog - Somos Casino","isPartOf":{"@id":"https://blog.somoscasino.com/#website"},"description":"Somos Casino","breadcrumb":{"@id":"https://blog.somoscasino.com/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://blog.somoscasino.com/"]}]},{"@type":"BreadcrumbList","@id":"https://blog.somoscasino.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://blog.somoscasino.com/","url":"https://blog.somoscasino.com/","name":"Portada"}}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <title>Document</title>
-</head>
 
-<body>
-    <header>
-        <!-- <header class="position-sticky sticky-top"> -->
-        <div id="header-bottom">
-            <div class="container">
-                <div class="float-logo">
-                    <a href="https://www.somoscasino.com/" id="logo"></a>
-                </div>
-                <div class="float-menu">
-                    <div class="options-top">
-                        <a href="https://www.somoscasino.com/" class="login-form-open">Iniciar Sesión</a>
-                        <a href="https://www.somoscasino.com/register" class="register-button">Crear Cuenta</a>
-                    </div>
-                    <nav class="navbar navbar-expand-lg navbar-dark">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target=".navbarsSomosCasino" aria-controls="navbarsSomosCasino" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse">
-                            <ul class="navbar-nav m-auto flex-column w-100">
-                                <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/casino"><img
-                                            src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/casino_white.svg">
-                                        Casino</a></li>
-                                <li class="nav-item"><a class="nav-link"
-                                        href="https://www.somoscasino.com/livecasino"><img
-                                            src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/casinolive_white.svg">
-                                        Casino en vivo</a></li>
-                                <li class="nav-item"><a class="nav-link"
-                                        href="https://www.somoscasino.com/play/gh/di-sportsbook"><img
-                                            src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/sportsbook-di_white.svg">
-                                        Deportes</a></li>
-                                <li class="nav-item"><a class="nav-link"
-                                        href="https://www.somoscasino.com/virtual-sports"><img
-                                            src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/sectionVirtualSports_white.svg">
-                                        Virtuales</a></li>
-                                <li class="nav-item"><a class="nav-link"
-                                        href="https://www.somoscasino.com/content/promotionsb"><img
-                                            src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/promotions_bamako_white.svg">
-                                        Promociones</a></li>
-                                <li class="nav-item active"><a class="nav-link" href="https://blog.somoscasino.com"><img
-                                            src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/newsb_white.svg">
-                                        Noticias</a></li>
-                                <li class="nav-item"><a class="nav-link"
-                                        href="https://www.somoscasino.com/content/tutorials"><img
-                                            src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/tutorials_white.svg">
-                                        Tutoriales</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <div id="header-movil">
-            <nav class="navbar navbar-expand-lg navbar-light d-flex d-lg-none">
-                <div class="collapse navbar-collapse navbarsSomosCasino">
-                    <ul class="navbar-nav mr-auto text-center">
-                        <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/casino">Casino</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/livecasino">Casino en
-                                vivo</a></li>
-                        <li class="nav-item"><a class="nav-link"
-                                href="https://www.somoscasino.com/play/gh/di-sportsbook">Deportes</a></li>
-                        <li class="nav-item"><a class="nav-link"
-                                href="https://www.somoscasino.com/virtual-sports">Virtuales</a></li>
-                        <li class="nav-item"><a class="nav-link"
-                                href="https://www.somoscasino.com/content/promotionsb">Promociones</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://blog.somoscasino.com">Noticias</a></li>
-                        <li class="nav-item"><a class="nav-link"
-                                href="https://www.somoscasino.com/content/tutorials">Tutoriales</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/">Iniciar Sesión</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/register">Crear
-                                Cuenta</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <main role="blog">
-        <section class="slider">
-            <div id="metaslider-id-163" style="width: 100%;"
-                class="ml-slider-3-20-3 metaslider metaslider-flex metaslider-163 ml-slider">
-                <div id="metaslider_container_163">
-                    <div id="metaslider_163" class="flexslider">
-                        <ul aria-live="polite" class="slides">
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; z-index: 2;"
-                                class="slide-186 ms-image flex-active-slide" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/04/SC_Bono300_ArtOtono1920x450_v1-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-186"
-                                    title="SC_Bono300_ArtOtoño1920x450_v1" draggable="false"></li>
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;"
-                                class="slide-187 ms-image" aria-hidden="true" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/04/SC_Bono400_ArtOtonoPP1920x450_v1-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-187"
-                                    title="SC_Bono400_ArtOtoñoPP1920x450_v1" draggable="false"></li>
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;"
-                                class="slide-188 ms-image" aria-hidden="true" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_3-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-188" title="sc_3"
-                                    draggable="false"></li>
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;"
-                                class="slide-189 ms-image" aria-hidden="true" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_4-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-189" title="sc_4"
-                                    draggable="false"></li>
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;"
-                                class="slide-190 ms-image" aria-hidden="true" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_5-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-190" title="sc_5"
-                                    draggable="false"></li>
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;"
-                                class="slide-191 ms-image" aria-hidden="true" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_6-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-191" title="sc_6"
-                                    draggable="false"></li>
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;"
-                                class="slide-192 ms-image" aria-hidden="true" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_7-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-192" title="sc_7"
-                                    draggable="false"></li>
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;"
-                                class="slide-193 ms-image" aria-hidden="true" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_8-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-193" title="sc_8"
-                                    draggable="false"></li>
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;"
-                                class="slide-194 ms-image" aria-hidden="true" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_9-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-194" title="sc_9"
-                                    draggable="false"></li>
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;"
-                                class="slide-195 ms-image" aria-hidden="true" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_10-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-195" title="sc_10"
-                                    draggable="false"></li>
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;"
-                                class="slide-196 ms-image" aria-hidden="true" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_11-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-196" title="sc_11"
-                                    draggable="false"></li>
-                            <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;"
-                                class="slide-197 ms-image" aria-hidden="true" data-thumb-alt=""><img
-                                    src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_12-0x0.jpg"
-                                    height="0" width="0" alt="" class="slider-163 slide-197" title="sc_12"
-                                    draggable="false"></li>
-                        </ul>
-                        <ol class="flex-control-nav flex-control-paging">
-                            <li><a href="#" class="flex-active">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">6</a></li>
-                            <li><a href="#">7</a></li>
-                            <li><a href="#">8</a></li>
-                            <li><a href="#">9</a></li>
-                            <li><a href="#">10</a></li>
-                            <li><a href="#">11</a></li>
-                            <li><a href="#">12</a></li>
-                        </ol>
-                    </div>
+<link rel="dns-prefetch" href="//s.w.org">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.somoscasino.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.4"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://blog.somoscasino.com/wp-includes/js/wp-emoji-release.min.js?ver=5.6.4" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="https://blog.somoscasino.com/wp-includes/css/dist/block-library/style.min.css?ver=5.6.4" type="text/css" media="all">
+<link rel="https://api.w.org/" href="https://blog.somoscasino.com/wp-json/"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.somoscasino.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.somoscasino.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.6.4">
+<link rel="icon" href="https://blog.somoscasino.com/wp-content/uploads/2021/03/cropped-favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://blog.somoscasino.com/wp-content/uploads/2021/03/cropped-favicon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://blog.somoscasino.com/wp-content/uploads/2021/03/cropped-favicon-180x180.png">
+<meta name="msapplication-TileImage" content="https://blog.somoscasino.com/wp-content/uploads/2021/03/cropped-favicon-270x270.png">
+	<meta property="fb:app_id" content="140729863428582">
+	<meta property="fb:admins" content="100001960917113">
+	<meta property="fb:admins" content="1320108323">
+	<link rel="shortcut icon" type="image/x-icon" href="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/favicon.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/recursos/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/css/main.css">
+			<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NW6ZHVL');</script>
+    <!-- End Google Tag Manager -->
+	<style>
+		/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
 
-                </div>
-            </div>
-        </section>
-<div class="row">
-        <div id="ranking" class="col-8">
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+.alignright {
+  float:right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%; /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 2em 0;
+  padding: 1.75em 1.75em;
+  border-left: #321ABE 0.4em solid;
+  font-style: italic;
+}
+
+
+@media screen and (min-width: 782px){
+  .admin-bar header.navbar-light{
+    top: 20px;
+  }
+}
+	</style>
+<style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_customer_chat_bubble_animated_no_badge{box-shadow:0 3px 12px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_no_badge:hover{box-shadow:0 5px 24px rgba(0, 0, 0, .3)}.fb_customer_chat_bubble_animated_with_badge{box-shadow:-5px 4px 14px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_with_badge:hover{box-shadow:-5px 8px 24px rgba(0, 0, 0, .2)}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_new_ui_mobile_overlay_active{overflow:hidden}@keyframes fb_mpn_landing_page_slide_in{0%{border-radius:50%;margin:0 24px;width:60px}40%{border-radius:18px}100%{margin:0 12px;width:100% - 24px}}@keyframes fb_mpn_landing_page_slide_in_from_left{0%{border-radius:50%;left:12px;margin:0 24px;width:60px}40%{border-radius:18px}100%{left:12px;margin:0 12px;width:100% - 24px}}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes fb_bounce_out_v2_mobile_chat_started{0%{opacity:1;top:0}100%{opacity:0;top:20px}}@keyframes fb_customer_chat_bubble_bounce_in_animation{0%{bottom:6pt;opacity:0;transform:scale(0, 0);transform-origin:center}70%{bottom:18pt;opacity:1;transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style></head>
+<body class="home blog" cz-shortcut-listen="true">
+			<!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW6ZHVL"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+	<header><!-- <header class="position-sticky sticky-top"> -->
+	    <div id="header-bottom">
+	        <div class="container">
+	            <div class="float-logo">
+	                <a href="https://www.somoscasino.com/" id="logo"></a>
+	            </div>
+	            <div class="float-menu">
+	            	<div class="options-top">
+	            		<a href="https://www.somoscasino.com/" class="login-form-open">Iniciar Sesión</a>
+	            		<a href="https://www.somoscasino.com/register" class="register-button">Crear Cuenta</a>
+	            	</div>
+	                <nav class="navbar navbar-expand-lg navbar-dark">
+	                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarsSomosCasino" aria-controls="navbarsSomosCasino" aria-expanded="false" aria-label="Toggle navigation">
+	                        <span class="navbar-toggler-icon"></span>
+	                    </button>
+	                    <div class="collapse navbar-collapse">
+	                        <ul class="navbar-nav m-auto flex-column w-100">
+	                            <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/casino"><img src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/casino_white.svg"> Casino</a></li>
+	                            <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/livecasino"><img src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/casinolive_white.svg"> Casino en vivo</a></li>
+	                            <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/play/gh/di-sportsbook"><img src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/sportsbook-di_white.svg"> Deportes</a></li>
+	                            <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/virtual-sports"><img src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/sectionVirtualSports_white.svg"> Virtuales</a></li>
+	                            <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/content/promotionsb"><img src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/promotions_bamako_white.svg"> Promociones</a></li>
+	                            <li class="nav-item active"><a class="nav-link" href="https://blog.somoscasino.com"><img src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/newsb_white.svg"> Noticias</a></li>
+	                            <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/content/tutorials"><img src="https://d1i1wfn7hj3mva.cloudfront.net/media/skins/somoscasino/images/navigation_icons/tutorials_white.svg"> Tutoriales</a></li>
+	                        </ul>
+	                    </div>
+	                </nav>
+	            </div>
+	        </div>
+	    </div>
+	    <div id="header-movil">
+	        <nav class="navbar navbar-expand-lg navbar-light d-flex d-lg-none">
+	            <div class="collapse navbar-collapse navbarsSomosCasino">
+	                <ul class="navbar-nav mr-auto text-center">
+	                    <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/casino">Casino</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/livecasino">Casino en vivo</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/play/gh/di-sportsbook">Deportes</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/virtual-sports">Virtuales</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/content/promotionsb">Promociones</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="https://blog.somoscasino.com">Noticias</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/content/tutorials">Tutoriales</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/">Iniciar Sesión</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="https://www.somoscasino.com/register">Crear Cuenta</a></li>
+	                </ul>
+	            </div>
+	        </nav>
+	    </div>
+	</header><main role="blog">
+	<section class="slider">
+		<div id="metaslider-id-163" style="width: 100%;" class="ml-slider-3-20-3 metaslider metaslider-flex metaslider-163 ml-slider">
+    <div id="metaslider_container_163">
+        <div id="metaslider_163" class="flexslider">
+            <ul aria-live="polite" class="slides">
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; z-index: 2;" class="slide-186 ms-image flex-active-slide" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/04/SC_Bono300_ArtOtono1920x450_v1-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-186" title="SC_Bono300_ArtOtoño1920x450_v1" draggable="false"></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-187 ms-image" aria-hidden="true" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/04/SC_Bono400_ArtOtonoPP1920x450_v1-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-187" title="SC_Bono400_ArtOtoñoPP1920x450_v1" draggable="false"></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-188 ms-image" aria-hidden="true" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_3-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-188" title="sc_3" draggable="false"></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-189 ms-image" aria-hidden="true" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_4-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-189" title="sc_4" draggable="false"></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-190 ms-image" aria-hidden="true" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_5-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-190" title="sc_5" draggable="false"></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-191 ms-image" aria-hidden="true" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_6-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-191" title="sc_6" draggable="false"></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-192 ms-image" aria-hidden="true" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_7-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-192" title="sc_7" draggable="false"></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-193 ms-image" aria-hidden="true" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_8-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-193" title="sc_8" draggable="false"></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-194 ms-image" aria-hidden="true" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_9-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-194" title="sc_9" draggable="false"></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-195 ms-image" aria-hidden="true" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_10-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-195" title="sc_10" draggable="false"></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-196 ms-image" aria-hidden="true" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_11-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-196" title="sc_11" draggable="false"></li>
+                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class="slide-197 ms-image" aria-hidden="true" data-thumb-alt=""><img src="https://blog.somoscasino.com/wp-content/uploads/2021/03/sc_12-0x0.jpg" height="0" width="0" alt="" class="slider-163 slide-197" title="sc_12" draggable="false"></li>
+            </ul>
+        <ol class="flex-control-nav flex-control-paging"><li><a href="#" class="flex-active">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li><li><a href="#">5</a></li><li><a href="#">6</a></li><li><a href="#">7</a></li><li><a href="#">8</a></li><li><a href="#">9</a></li><li><a href="#">10</a></li><li><a href="#">11</a></li><li><a href="#">12</a></li></ol></div>
+        
+    </div>
+</div>	</section>
+	<section class="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-uppercase">
+                        Cada semanana tenemos 1500 € + 500 giros gratis
+                       </h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="blog" class="section padding pt-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-xs-12 lista-noticia">
+					<div class="row">
+												<article id="post-523" class="col-lg-12 col-md-12 post">
+	<div class="post-item">
+
+        <div id="ranking" class="col-10">
             <div class="row">
-                <div class="col-8 padding mb-5">
+                <div class="col-10 padding mb-5">
                     <div class="col-box box-shadow">
                         <div class="head">
                             <h4>
@@ -695,274 +813,554 @@
                 </div>
             </div>
         </div>
+	
+	</div>
+</article><article id="post-516" class="col-lg-12 col-md-12 post">
+	<div class="post-item">
+		<div class="cnt-noticia position-relative">
+						<div class="imagen">
+				<a href="https://blog.somoscasino.com/por-que-es-importante-el-rng-en-los-juegos-de-casino-online/" class="cnt-noticia position-relative">
+					<img src="https://blog.somoscasino.com/wp-content/uploads/2021/07/Por-que-es-importante-el-RNG-en-los-juegos-de-casino-online-1.png" alt="" class="img-fluid w-100">
+				</a>
+			</div>
+						<div class="texto">
+				<h2 class="title-noticia">¿Por qué es importante el RNG en los juegos de casino online?</h2>				<p>Es seguro decir que ha oído hablar del acrónimo RNG mientras jugaba juegos de casino online. Pero, ¿qué significa y por qué es importante? Este artículo analizará la importancia de los generadores de números aleatorios (RNG) y cómo afecta a la industria del juego. Los RNG son vitales para los [...]</p>
+				<div class="content d-flex justify-content-between align-content-center flex-wrap pt-3">
+					<div class="content-info p-0">
+						<ul class="list-group list-group-horizontal">
+							<li class="autor list-group-item"><i class="fal fa-user-circle"></i> admin</li>
+							<!-- <li class="number list-group-item"><i class="fas fa-comments"></i> 0 Comentarios</li>
+							<li class="category list-group-item">
+								<a href=""><i class="fas fa-folder-open"></i> Categoria Prueba</a>
+							</li> -->
+							<li class="date list-group-item"><i class="far fa-clock"></i> 26 julio 2021</li>
+						</ul>
+					</div>
+					<div class="content-link p-0">
+						<div class="link">
+							<a href="https://blog.somoscasino.com/por-que-es-importante-el-rng-en-los-juegos-de-casino-online/">
+								Leer más
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</article><article id="post-510" class="col-lg-12 col-md-12 post">
+	<div class="post-item">
+		<div class="cnt-noticia position-relative">
+						<div class="imagen">
+				<a href="https://blog.somoscasino.com/beneficios-para-la-salud-mental-de-los-juegos-de-casino-en-online/" class="cnt-noticia position-relative">
+					<img src="https://blog.somoscasino.com/wp-content/uploads/2021/07/Beneficios-para-la-salud-mental-de-los-juegos-de-casino-en-online.png" alt="" class="img-fluid w-100">
+				</a>
+			</div>
+						<div class="texto">
+				<h2 class="title-noticia">Beneficios para la salud mental de los juegos de casino en online</h2>				<p>En estos tiempos de incertidumbre, cuando el aislamiento es lo principal que puede mantenernos a salvo del COVID-19, es esencial encontrar formas de mantenernos entretenidos y mentalmente activos. Estar atrapado en casa puede afectar seriamente la salud mental. Así que, conoce los beneficios [...]</p>
+				<div class="content d-flex justify-content-between align-content-center flex-wrap pt-3">
+					<div class="content-info p-0">
+						<ul class="list-group list-group-horizontal">
+							<li class="autor list-group-item"><i class="fal fa-user-circle"></i> admin</li>
+							<!-- <li class="number list-group-item"><i class="fas fa-comments"></i> 0 Comentarios</li>
+							<li class="category list-group-item">
+								<a href=""><i class="fas fa-folder-open"></i> Casino Online</a>
+							</li> -->
+							<li class="date list-group-item"><i class="far fa-clock"></i> 21 julio 2021</li>
+						</ul>
+					</div>
+					<div class="content-link p-0">
+						<div class="link">
+							<a href="https://blog.somoscasino.com/beneficios-para-la-salud-mental-de-los-juegos-de-casino-en-online/">
+								Leer más
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</article><article id="post-505" class="col-lg-12 col-md-12 post">
+	<div class="post-item">
+		<div class="cnt-noticia position-relative">
+						<div class="imagen">
+				<a href="https://blog.somoscasino.com/los-mejores-juegos-de-casino-online/" class="cnt-noticia position-relative">
+					<img src="https://blog.somoscasino.com/wp-content/uploads/2021/07/Los-mejores-juegos-de-casino-online-portada.png" alt="" class="img-fluid w-100">
+				</a>
+			</div>
+						<div class="texto">
+				<h2 class="title-noticia">Los mejores juegos de casino online</h2>				<p>Los juegos de casino online están disponibles en los sitios de casino en muchas variaciones diferentes. Como tal, los jugadores de casino online pueden disfrutar de las opciones de juego que mejor se adapten a ellos. Hoy puedes encontrar cientos de títulos emocionantes y disfrutar de tus [...]</p>
+				<div class="content d-flex justify-content-between align-content-center flex-wrap pt-3">
+					<div class="content-info p-0">
+						<ul class="list-group list-group-horizontal">
+							<li class="autor list-group-item"><i class="fal fa-user-circle"></i> admin</li>
+							<!-- <li class="number list-group-item"><i class="fas fa-comments"></i> 0 Comentarios</li>
+							<li class="category list-group-item">
+								<a href=""><i class="fas fa-folder-open"></i> Casino Online</a>
+							</li> -->
+							<li class="date list-group-item"><i class="far fa-clock"></i> 19 julio 2021</li>
+						</ul>
+					</div>
+					<div class="content-link p-0">
+						<div class="link">
+							<a href="https://blog.somoscasino.com/los-mejores-juegos-de-casino-online/">
+								Leer más
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</article><article id="post-465" class="col-lg-12 col-md-12 post">
+	<div class="post-item">
+		<div class="cnt-noticia position-relative">
+						<div class="imagen">
+				<a href="https://blog.somoscasino.com/conoce-las-tendencias-del-casino-online-2021/" class="cnt-noticia position-relative">
+					<img src="https://blog.somoscasino.com/wp-content/uploads/2021/07/tendencias-del-casino-online.png" alt="" class="img-fluid w-100">
+				</a>
+			</div>
+						<div class="texto">
+				<h2 class="title-noticia">Conoce las tendencias del casino online 2021</h2>				<p>El año 2020 fue un año lleno de incertidumbre para negocios, incluso para el sector de casinos. Pero, este año, este rubro se ha renovado y trae las mejores tendencias del casino online para el 2021. Así que, si quieres saber más sobre ellas, ¡No te pierdas este artículo completo!&nbsp; La realidad [...]</p>
+				<div class="content d-flex justify-content-between align-content-center flex-wrap pt-3">
+					<div class="content-info p-0">
+						<ul class="list-group list-group-horizontal">
+							<li class="autor list-group-item"><i class="fal fa-user-circle"></i> admin</li>
+							<!-- <li class="number list-group-item"><i class="fas fa-comments"></i> 0 Comentarios</li>
+							<li class="category list-group-item">
+								<a href=""><i class="fas fa-folder-open"></i> Casino Online</a>
+							</li> -->
+							<li class="date list-group-item"><i class="far fa-clock"></i> 16 julio 2021</li>
+						</ul>
+					</div>
+					<div class="content-link p-0">
+						<div class="link">
+							<a href="https://blog.somoscasino.com/conoce-las-tendencias-del-casino-online-2021/">
+								Leer más
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</article><article id="post-498" class="col-lg-12 col-md-12 post">
+	<div class="post-item">
+		<div class="cnt-noticia position-relative">
+						<div class="imagen">
+				<a href="https://blog.somoscasino.com/juegos-de-habilidad-online-vs-juegos-de-azar/" class="cnt-noticia position-relative">
+					<img src="https://blog.somoscasino.com/wp-content/uploads/2021/07/Juegos-de-habilidad-online-vs.-Juegos-de-azar.png" alt="" class="img-fluid w-100">
+				</a>
+			</div>
+						<div class="texto">
+				<h2 class="title-noticia">Juegos de habilidad online vs. Juegos de azar</h2>				<p>Algunos juegos de casino se basan en habilidades, mientras que otros son una tirada total de dados. Es esencial comprender la diferencia entre los dos y el estilo que le gusta cuando está apostando con dinero real. Los juegos de habilidad online recompensan el conocimiento y la experiencia con [...]</p>
+				<div class="content d-flex justify-content-between align-content-center flex-wrap pt-3">
+					<div class="content-info p-0">
+						<ul class="list-group list-group-horizontal">
+							<li class="autor list-group-item"><i class="fal fa-user-circle"></i> admin</li>
+							<!-- <li class="number list-group-item"><i class="fas fa-comments"></i> 0 Comentarios</li>
+							<li class="category list-group-item">
+								<a href=""><i class="fas fa-folder-open"></i> Casino Online</a>
+							</li> -->
+							<li class="date list-group-item"><i class="far fa-clock"></i> 14 julio 2021</li>
+						</ul>
+					</div>
+					<div class="content-link p-0">
+						<div class="link">
+							<a href="https://blog.somoscasino.com/juegos-de-habilidad-online-vs-juegos-de-azar/">
+								Leer más
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</article><article id="post-463" class="col-lg-12 col-md-12 post">
+	<div class="post-item">
+		<div class="cnt-noticia position-relative">
+						<div class="imagen">
+				<a href="https://blog.somoscasino.com/curiosidades-que-no-conocias-sobre-los-casinos-y-tragamonedas/" class="cnt-noticia position-relative">
+					<img src="https://blog.somoscasino.com/wp-content/uploads/2021/07/Curiosidades-que-no-conocias-sobre-los-casinos-y-tragamonedas.png" alt="" class="img-fluid w-100">
+				</a>
+			</div>
+						<div class="texto">
+				<h2 class="title-noticia">Curiosidades que no conocías sobre los casinos y tragamonedas</h2>				<p>¿Sabías que detrás de cada empresa hay una historia? Los casinos y tragamonedas no son la excepción y existen muchas curiosidades que aún no conoces sobre estos lugares llenos de diversión y entretenimiento. Si ya conocías algunas historias sobre los mejores premios de casinos, entre otros, en [...]</p>
+				<div class="content d-flex justify-content-between align-content-center flex-wrap pt-3">
+					<div class="content-info p-0">
+						<ul class="list-group list-group-horizontal">
+							<li class="autor list-group-item"><i class="fal fa-user-circle"></i> admin</li>
+							<!-- <li class="number list-group-item"><i class="fas fa-comments"></i> 0 Comentarios</li>
+							<li class="category list-group-item">
+								<a href=""><i class="fas fa-folder-open"></i> Casino Online</a>
+							</li> -->
+							<li class="date list-group-item"><i class="far fa-clock"></i> 13 julio 2021</li>
+						</ul>
+					</div>
+					<div class="content-link p-0">
+						<div class="link">
+							<a href="https://blog.somoscasino.com/curiosidades-que-no-conocias-sobre-los-casinos-y-tragamonedas/">
+								Leer más
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</article><article id="post-490" class="col-lg-12 col-md-12 post">
+	<div class="post-item">
+		<div class="cnt-noticia position-relative">
+						<div class="imagen">
+				<a href="https://blog.somoscasino.com/los-mejores-smartphones-para-juegos-de-azar-online-en-2021/" class="cnt-noticia position-relative">
+					<img src="https://blog.somoscasino.com/wp-content/uploads/2021/07/Los-mejores-smartphones-para-juegos-de-azar-online-en-2021.png" alt="" class="img-fluid w-100">
+				</a>
+			</div>
+						<div class="texto">
+				<h2 class="title-noticia">Los mejores smartphones para juegos de azar online en 2021</h2>				<p>Los teléfonos inteligentes de hoy en día han permitido a la industria de los casinos hacer avances considerables en términos de innovación. Un teléfono inteligente permite a los jugadores jugar a sus juegos de casino en línea favoritos dondequiera que estén. Ahora que los casinos en Internet [...]</p>
+				<div class="content d-flex justify-content-between align-content-center flex-wrap pt-3">
+					<div class="content-info p-0">
+						<ul class="list-group list-group-horizontal">
+							<li class="autor list-group-item"><i class="fal fa-user-circle"></i> admin</li>
+							<!-- <li class="number list-group-item"><i class="fas fa-comments"></i> 0 Comentarios</li>
+							<li class="category list-group-item">
+								<a href=""><i class="fas fa-folder-open"></i> Casino Online</a>
+							</li> -->
+							<li class="date list-group-item"><i class="far fa-clock"></i> 12 julio 2021</li>
+						</ul>
+					</div>
+					<div class="content-link p-0">
+						<div class="link">
+							<a href="https://blog.somoscasino.com/los-mejores-smartphones-para-juegos-de-azar-online-en-2021/">
+								Leer más
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</article><article id="post-374" class="col-lg-12 col-md-12 post">
+	<div class="post-item">
+		<div class="cnt-noticia position-relative">
+						<div class="imagen">
+				<a href="https://blog.somoscasino.com/5-consejos-para-jugar-bingo-en-linea-que-debes-conocer/" class="cnt-noticia position-relative">
+					<img src="https://blog.somoscasino.com/wp-content/uploads/2021/04/consejos-para-jugar-bingo-en-linea.png" alt="" class="img-fluid w-100">
+				</a>
+			</div>
+						<div class="texto">
+				<h2 class="title-noticia">5 consejos para jugar bingo en línea que debes conocer</h2>				<p>¿Quién no ha jugado bingo? Este juego es tan popular porque está lleno de emoción y lleno de posibilidades de ganar. Pero, aunque sea un juego de azar existen algunos consejos para jugar bingo en línea y ganar. Así que, si quieres ganar y pasárselo bien, aquí te contamos algunos consejos para [...]</p>
+				<div class="content d-flex justify-content-between align-content-center flex-wrap pt-3">
+					<div class="content-info p-0">
+						<ul class="list-group list-group-horizontal">
+							<li class="autor list-group-item"><i class="fal fa-user-circle"></i> admin</li>
+							<!-- <li class="number list-group-item"><i class="fas fa-comments"></i> 0 Comentarios</li>
+							<li class="category list-group-item">
+								<a href=""><i class="fas fa-folder-open"></i> Bingo</a>
+							</li> -->
+							<li class="date list-group-item"><i class="far fa-clock"></i> 9 julio 2021</li>
+						</ul>
+					</div>
+					<div class="content-link p-0">
+						<div class="link">
+							<a href="https://blog.somoscasino.com/5-consejos-para-jugar-bingo-en-linea-que-debes-conocer/">
+								Leer más
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</article><article id="post-483" class="col-lg-12 col-md-12 post">
+	<div class="post-item">
+		<div class="cnt-noticia position-relative">
+						<div class="imagen">
+				<a href="https://blog.somoscasino.com/como-ha-afectado-covid-19-los-juegos-de-azar-en-linea/" class="cnt-noticia position-relative">
+					<img src="https://blog.somoscasino.com/wp-content/uploads/2021/07/Como-ha-afectado-Covid-19-los-juegos-de-azar-en-linea.png" alt="" class="img-fluid w-100">
+				</a>
+			</div>
+						<div class="texto">
+				<h2 class="title-noticia">Cómo ha afectado Covid-19 los juegos de azar en línea</h2>				<p>El año 2020 ha sido tumultuoso para todos. El mundo entero tuvo que adaptarse a las nuevas condiciones durante la pandemia de COVID-19. Todas las industrias se esforzaron por realizar los cambios necesarios para sobrevivir a la recesión económica causada porque todos se quedaron en casa durante [...]</p>
+				<div class="content d-flex justify-content-between align-content-center flex-wrap pt-3">
+					<div class="content-info p-0">
+						<ul class="list-group list-group-horizontal">
+							<li class="autor list-group-item"><i class="fal fa-user-circle"></i> admin</li>
+							<!-- <li class="number list-group-item"><i class="fas fa-comments"></i> 0 Comentarios</li>
+							<li class="category list-group-item">
+								<a href=""><i class="fas fa-folder-open"></i> Casino Online</a>
+							</li> -->
+							<li class="date list-group-item"><i class="far fa-clock"></i> 8 julio 2021</li>
+						</ul>
+					</div>
+					<div class="content-link p-0">
+						<div class="link">
+							<a href="https://blog.somoscasino.com/como-ha-afectado-covid-19-los-juegos-de-azar-en-linea/">
+								Leer más
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</article>						<div class="col-12"><ul class="pagination  justify-content-center"><li class="page-item active"><span class="page-link">1 <span class="sr-only">(current)</span></span></li><li class="page-item"><a class="page-link" href="https://blog.somoscasino.com/page/2/">2</a></li><li class="page-item"><a class="page-link" href="https://blog.somoscasino.com/page/3/">3</a></li><li class="page-item"><a class="page-link" href="https://blog.somoscasino.com/page/4/">4</a></li><li class="page-item"><a class="page-link" href="https://blog.somoscasino.com/page/5/">5</a></li><li class="page-item"><a class="page-link" href="https://blog.somoscasino.com/page/2/" aria-label="Siguiente">Siguiente</a></li></ul></div>										</div>
+				</div>
+				<div class="col-md-4 right-sdetail">
+											
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h3 class="widget-title">Últimas Publicaciones</h3><hr>
+		<ul>
+											<li>
+					<a href="https://blog.somoscasino.com/los-mejores-juegos-de-casino-asiaticos-para-jugar-en-linea/">Los mejores juegos de casino asiáticos para jugar en línea</a>
+											<span class="post-date">28 julio 2021</span>
+									</li>
+											<li>
+					<a href="https://blog.somoscasino.com/por-que-es-importante-el-rng-en-los-juegos-de-casino-online/">¿Por qué es importante el RNG en los juegos de casino online?</a>
+											<span class="post-date">26 julio 2021</span>
+									</li>
+											<li>
+					<a href="https://blog.somoscasino.com/beneficios-para-la-salud-mental-de-los-juegos-de-casino-en-online/">Beneficios para la salud mental de los juegos de casino en online</a>
+											<span class="post-date">21 julio 2021</span>
+									</li>
+											<li>
+					<a href="https://blog.somoscasino.com/los-mejores-juegos-de-casino-online/">Los mejores juegos de casino online</a>
+											<span class="post-date">19 julio 2021</span>
+									</li>
+											<li>
+					<a href="https://blog.somoscasino.com/conoce-las-tendencias-del-casino-online-2021/">Conoce las tendencias del casino online 2021</a>
+											<span class="post-date">16 julio 2021</span>
+									</li>
+											<li>
+					<a href="https://blog.somoscasino.com/juegos-de-habilidad-online-vs-juegos-de-azar/">Juegos de habilidad online vs. Juegos de azar</a>
+											<span class="post-date">14 julio 2021</span>
+									</li>
+											<li>
+					<a href="https://blog.somoscasino.com/curiosidades-que-no-conocias-sobre-los-casinos-y-tragamonedas/">Curiosidades que no conocías sobre los casinos y tragamonedas</a>
+											<span class="post-date">13 julio 2021</span>
+									</li>
+											<li>
+					<a href="https://blog.somoscasino.com/los-mejores-smartphones-para-juegos-de-azar-online-en-2021/">Los mejores smartphones para juegos de azar online en 2021</a>
+											<span class="post-date">12 julio 2021</span>
+									</li>
+											<li>
+					<a href="https://blog.somoscasino.com/5-consejos-para-jugar-bingo-en-linea-que-debes-conocer/">5 consejos para jugar bingo en línea que debes conocer</a>
+											<span class="post-date">9 julio 2021</span>
+									</li>
+											<li>
+					<a href="https://blog.somoscasino.com/como-ha-afectado-covid-19-los-juegos-de-azar-en-linea/">Cómo ha afectado Covid-19 los juegos de azar en línea</a>
+											<span class="post-date">8 julio 2021</span>
+									</li>
+					</ul>
 
-        <div id="ranking" class="col-8">
-            <div class="row">
-                <div class="col-8 padding mb-5">
-                    <div class="col-box box-shadow">
-                        <div class="head">
-                            <h4>
-                                Ranking de
-                                <strong>
-                                    Pronosticadores
-                                </strong>
-                            </h4>
-                        </div>
-                        <div class="body">
-                            <div class="table-responsive">
-                                <table class="table table-pronostico">
-                                    <thead class="table-dark">
-                                        <tr>
-                                            <th scope="col" width="5%"></th>
-                                            <th scope="col" width="30%">
-                                                Usuarios
-                                            </th>
-                                            <th scope="col" class="text-center" width="10%" align="center">
-                                                Puntos
-                                            </th>
-                                            <th scope="col" class="text-center d-none" width="10%" align="center">
-                                                Bonos
-                                            </th>
-                                            <th scope="col" class="text-center" width="10%" align="center">
-                                                Aciertos/Pronósticos
-                                            </th>
-                                            <th scope="col" class="text-center" width="10%" align="center">
-                                                Efectividad
-                                            </th>
-                                            <th scope="col" class="text-center" width="10%" align="center">
-                                                Seguidores
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="bg-white">
-                                            <td scope="row" align="center">
-                                                1
-                                            </td>
-                                            <td valign="middle">
-                                                <img src="https://dondeapuesto.com/uploads/users/3.jpg" alt="Fernando"
-                                                    width="30" height="30" class="lazyload d-none d-md-inline-block">
-                                                <span style="padding-left: 5px;">
-                                                    Futbol365
-                                                </span>
-                                            </td>
-                                            <td class="add table-warning" align="center">
-                                                <span>
-                                                    517560
-                                                </span>
-                                            </td>
-                                            <td class="points d-none" align="center">
-                                                <span>
-                                                    0
-                                                </span>
-                                            </td>
-                                            <td align="center">
-                                                <span>
-                                                    1345
-                                                    /
-                                                    <b>
-                                                        3204
-                                                    </b>
-                                                </span>
-                                            </td>
-                                            <td align="center">
-                                                <b style="color: green;">
-                                                    41.98
-                                                    %
-                                                </b>
-                                            </td>
-                                            <td align="center">
-                                                <span>
-                                                    11
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr class="bg-white">
-                                            <td scope="row" align="center">
-                                                2
-                                            </td>
-                                            <td valign="middle">
-                                                <img src="https://dondeapuesto.com/uploads/no-disponible.jpg" alt="Iván"
-                                                    width="30" height="30" class="lazyload d-none d-md-inline-block">
-                                                <span style="padding-left: 5px;">
-                                                    Ivan
-                                                </span>
-                                            </td>
-                                            <td class="add table-warning" align="center">
-                                                <span>
-                                                    462170
-                                                </span>
-                                            </td>
-                                            <td class="points d-none" align="center">
-                                                <span>
-                                                    0
-                                                </span>
-                                            </td>
-                                            <td align="center">
-                                                <span>
-                                                    1260
-                                                    /
-                                                    <b>
-                                                        3119
-                                                    </b>
-                                                </span>
-                                            </td>
-                                            <td align="center">
-                                                <b style="color: green;">
-                                                    40.40
-                                                    %
-                                                </b>
-                                            </td>
-                                            <td align="center">
-                                                <span>
-                                                    6
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr class="bg-white">
-                                            <td scope="row" align="center">
-                                                3
-                                            </td>
-                                            <td valign="middle">
-                                                <img src="https://dondeapuesto.com/uploads/users/519.jpg"
-                                                    alt="Josue Paul" width="30" height="30"
-                                                    class="lazyload d-none d-md-inline-block">
-                                                <span style="padding-left: 5px;">
-                                                    Joshua
-                                                </span>
-                                            </td>
-                                            <td class="add table-warning" align="center">
-                                                <span>
-                                                    116300
-                                                </span>
-                                            </td>
-                                            <td class="points d-none" align="center">
-                                                <span>
-                                                    0
-                                                </span>
-                                            </td>
-                                            <td align="center">
-                                                <span>
-                                                    290
-                                                    /
-                                                    <b>
-                                                        712
-                                                    </b>
-                                                </span>
-                                            </td>
-                                            <td align="center">
-                                                <b style="color: green;">
-                                                    40.73
-                                                    %
-                                                </b>
-                                            </td>
-                                            <td align="center">
-                                                <span>
-                                                    2
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr class="bg-white">
-                                            <td scope="row" align="center">
-                                                4
-                                            </td>
-                                            <td valign="middle">
-                                                <img src="https://dondeapuesto.com/uploads/no-disponible.jpg"
-                                                    alt="SAMUEL" width="30" height="30"
-                                                    class="lazyload d-none d-md-inline-block">
-                                                <span style="padding-left: 5px;">
-                                                    Tachira
-                                                </span>
-                                            </td>
-                                            <td class="add table-warning" align="center">
-                                                <span>
-                                                    61800
-                                                </span>
-                                            </td>
-                                            <td class="points d-none" align="center">
-                                                <span>
-                                                    0
-                                                </span>
-                                            </td>
-                                            <td align="center">
-                                                <span>
-                                                    161
-                                                    /
-                                                    <b>
-                                                        395
-                                                    </b>
-                                                </span>
-                                            </td>
-                                            <td align="center">
-                                                <b style="color: green;">
-                                                    40.76
-                                                    %
-                                                </b>
-                                            </td>
-                                            <td align="center">
-                                                <span>
-                                                    2
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr class="bg-white">
-                                            <td scope="row" align="center">
-                                                5
-                                            </td>
-                                            <td valign="middle">
-                                                <img src="https://dondeapuesto.com/uploads/no-disponible.jpg"
-                                                    alt="Gustavo Gomez" width="30" height="30"
-                                                    class="lazyload d-none d-md-inline-block">
-                                                <span style="padding-left: 5px;">
-                                                    Gomita
-                                                </span>
-                                            </td>
-                                            <td class="add table-warning" align="center">
-                                                <span>
-                                                    60930
-                                                </span>
-                                            </td>
-                                            <td class="points d-none" align="center">
-                                                <span>
-                                                    0
-                                                </span>
-                                            </td>
-                                            <td align="center">
-                                                <span>
-                                                    122
-                                                    /
-                                                    <b>
-                                                        257
-                                                    </b>
-                                                </span>
-                                            </td>
-                                            <td align="center">
-                                                <b style="color: green;">
-                                                    47.47
-                                                    %
-                                                </b>
-                                            </td>
-                                            <td align="center">
-                                                <span>
-                                                    0
-                                                </span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <a href="https://dondeapuesto.com/usuarios" class="secundario text-center d-block">
-                                <b>
-                                    Ver todos los usuarios
-                                </b>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+		</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categorías</h3><hr>
+			<ul>
+					<li class="cat-item cat-item-35"><a href="https://blog.somoscasino.com/category/baccarat/">Baccarat</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="https://blog.somoscasino.com/category/bingo/">Bingo</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="https://blog.somoscasino.com/category/blackjack/">Blackjack</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="https://blog.somoscasino.com/category/casino-online/">Casino Online</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="https://blog.somoscasino.com/category/categoria-prueba/">Categoria Prueba</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="https://blog.somoscasino.com/category/curiosidades/">Curiosidades</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="https://blog.somoscasino.com/category/deportes/">Deportes</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="https://blog.somoscasino.com/category/jackpot/">Jackpot</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="https://blog.somoscasino.com/category/juegos-de-azar/">Juegos de azar</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="https://blog.somoscasino.com/category/poker/">Póker</a>
+</li>
+	<li class="cat-item cat-item-27"><a href="https://blog.somoscasino.com/category/ruleta/">Ruleta</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="https://blog.somoscasino.com/category/tragamonedas/">Tragamonedas</a>
+</li>
+			</ul>
+
+			</aside>									</div>
+			</div>
+		</div>
+	</section>
+	<section id="social" class="section padding pt-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-xs-12 lista-social">
+					<div class="list-group list-group-horizontal justify-content-center flex-wrap">
+						<a href="https://www.facebook.com/somoscasinooficial/" class="list-group-item" target="_blank"><i class="fab fa-facebook-f"></i> <h3>Facebook</h3></a>
+						<a href="https://twitter.com/somoscasino_ofi/" class="list-group-item" target="_blank"><i class="fab fa-twitter"></i> <h3>Twitter</h3></a>
+						<a href="https://www.instagram.com/somoscasino_oficial/" class="list-group-item" target="_blank"><i class="fab fa-instagram"></i> <h3>Instagram</h3></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+    <div class="container-fluid footer-content">
+        <div class="row">
+            <div class="footer-top col-md-12">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/ag-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/be-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/es-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/ez-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/vi-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/am-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/bf-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/bp-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/bs-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/bx-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/ea-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/el-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/ep-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/er-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/fg-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/gb-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/gp-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/gs-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/ha-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/hs-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/id-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/is-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/kv-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/le-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/m2-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/ma-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/mb-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/mf-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/mj-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/mn-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/mr-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/ne-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/no-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/o2-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/og-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/or-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/pa-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/pf-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/pg-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/py-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/qf-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/qp-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/qr-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/qs-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/re-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/sp-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/sv-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/th-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/tk-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/tp-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/wz-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/xg-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/yg-light.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/di-light.png" class="img-fluid">
+                <a href="https://www.thegamblerbay.com/" target="_blank"><img alt="the gambler bay" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/the-gambler-bay.png" class="img-fluid"></a>
+                <a href="https://www.cacaniqueisonline.com/" target="_blank"><img alt="cacaniqueisonline" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/cacaniqueisonline.png" class="img-fluid"></a>
+                <a href="https://casinoonlinechile.com/" target="_blank"><img alt="casinonlinechile" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/casinonlinechile.png" class="img-fluid"></a>
+                <a href="https://casinoonlineperu.com.pe/" target="_blank"><img alt="casinoonlineperu" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/casinoonlineperu.png" class="img-fluid"></a>
+                <a href="https://www.slotjava.es/" target="_blank"><img alt="slotjava" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/slotjava.png" class="img-fluid"></a>
+                <a href="https://www.bitcoin-casinos.net/" target="_blank"><img alt="bitcoin casinos" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/white_logos/bitcoin.png" class="img-fluid"></a>
+            </div>
+            <div class="footer-middle col-md-12">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/coinpayments_btc.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/coinpayments_eth.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/coinpayments_ltc.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/coinpayments_xrp.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaycard.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/bank.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/ecopayz.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/jeton.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/mastercard.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/mifinity.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/neosurfvoucher.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/neteller.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/paysafecard.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/skrill.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaybank_bm.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaybank_bv.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaybank_ox.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaybank_sm.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaybank_wp.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaybank_bb.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaybank_bl.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaybank_b.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaybank_h.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaybank_i.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/astropaybank_sb.png" class="img-fluid">
+                <img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/colors_logos/bank.png" class="img-fluid">
+            </div>
+            <div class="footer-bottom col-md-12">
+                <table align="left" border="0" cellpadding="1" cellspacing="1" style="width:100%; float: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div data-apg-image-size="128" data-apg-image-type="basic-small">
+                                    <div><img alt="License Validation Link" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/license_validation_link.png"></div>
+                                </div>
+                            </td>
+                            <td>
+                                <p>Somoscasino.com&nbsp;is operated by Mirage Corporation N.V. bearing company registration number 132869, a company incorporated under the laws of Curaçao, having its registered address at Fransche Bloemweg 4, Willemstad, Curaçao, holder of the License No. 8048/JAZ2014-037, issued by Antillephone N.V. Payments are processed by Mirage Ent. Corporation (Cyprus) Limited, with its registered address at Menandrou, 4, Gala Tower, 2nd Floor, 1066, Nicosia, Cyprus, registration number 340968, as per agreement between the two companies.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img alt="" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/images/over_18_logo.png" style="width:45px"></td>
+                            <td>
+                                <p>Solo jugadores mayores de 18 años y que residan en países en donde el juego es legal pueden jugar en somoscasino.com</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-    </main>
-</body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="footer-copyright col-md-12">
+                <div class="footer-rights">© 2021 Somos Casino. Todos los derechos reservados</div>
+            </div>
+        </div>
+    </div>
+</footer>
 
-</html>
+
+
+<script>
+    var url = 'https://blog.somoscasino.com';
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://blog.somoscasino.com/wp-content/themes/somoscasino/assets/js/main.js"></script>
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+<script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v5.0&amp;appId=140729863428582&amp;autoLogAppEvents=1"></script>
+<link rel="stylesheet" id="metaslider-flex-slider-css" href="https://blog.somoscasino.com/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.20.3" type="text/css" media="all" property="stylesheet">
+<link rel="stylesheet" id="metaslider-public-css" href="https://blog.somoscasino.com/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=3.20.3" type="text/css" media="all" property="stylesheet">
+<script type="text/javascript" src="https://blog.somoscasino.com/wp-includes/js/wp-embed.min.js?ver=5.6.4" id="wp-embed-js"></script>
+<script type="text/javascript" src="https://blog.somoscasino.com/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider.min.js?ver=3.20.3" id="metaslider-flex-slider-js"></script>
+<script type="text/javascript" id="metaslider-flex-slider-js-after">
+var metaslider_163 = function($) {$('#metaslider_163').addClass('flexslider');
+            $('#metaslider_163').flexslider({ 
+                slideshowSpeed:3000,
+                animation:"fade",
+                controlNav:true,
+                directionNav:false,
+                pauseOnHover:true,
+                direction:"horizontal",
+                reverse:false,
+                animationSpeed:600,
+                prevText:"Anterior",
+                nextText:"Siguiente",
+                fadeFirstSlide:false,
+                slideshow:true
+            });
+            $(document).trigger('metaslider/initialized', '#metaslider_163');
+        };
+        var timer_metaslider_163 = function() {
+            var slider = !window.jQuery ? window.setTimeout(timer_metaslider_163, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_163, 1) : metaslider_163(window.jQuery);
+        };
+        timer_metaslider_163();
+</script>
+
+</main></body></html>
