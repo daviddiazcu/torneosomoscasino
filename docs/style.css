@@ -1,0 +1,32 @@
+/*GENERAL*********************************************************************/
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+
+
+/*HEADER********************************************************************/
+header {
+  width: 225px;
+  position: fixed;
+  background: #9d4499;
+  height: 100%;
+  box-shadow: 2px 0px 10px rgb(0 0 0 / 20%);
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+/*slider**********************************************************************/   
+.metaslider {
+  position: relative;
+  z-index: 0;
+}
