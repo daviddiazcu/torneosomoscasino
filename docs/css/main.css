@@ -93,7 +93,7 @@ header .navbar {
 }
 
 .box-shadow {
-    border: none;
+    border-radius: 20px;
     -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .15);
     -moz-box-shadow: 10px 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .15);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .15);
@@ -352,8 +352,9 @@ button:focus {
     color: #ffbc3a;
 }
 
-.head {
-    padding-bottom: 20px;
+.head{
+    padding: 3%;
+    text-align: center;
 }
 
 .head h2 {
@@ -600,6 +601,7 @@ section.blog {
 
 .right-sdetail aside {
     box-shadow: 0 0 3rem rgb(0 0 0 / 10%);
+    border-radius: 20px;
 }
 
 .post {

@@ -1,0 +1,8 @@
+1.Texto: Cada semana tenemos $500 + 150 Jugadas Gratis
+2.Centrar titulos de las tablas.
+3.Texto titulos de tablas: Ultimo Torneo, Torneo Actual
+4.Tabla, que se muestren 15 y que tenga scroll para muchos.
+5.Cambiar premios de las tablas, formato: 200 USD y JG
+6.Quitar fotos de las tablas
+7.Redondear esquinas de las tablas
+8.Cambiar Como participar?, cambiar texto (w) y agregarle UL. 
